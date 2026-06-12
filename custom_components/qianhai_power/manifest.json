@@ -1,0 +1,14 @@
+{
+  "domain": "qianhai_power",
+  "name": "Qianhai Power",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/CelerPi/ha-qianhai-power",
+  "issue_tracker": "https://github.com/CelerPi/ha-qianhai-power/issues",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "gmssl==3.2.2"
+  ],
+  "version": "0.4.1"
+}

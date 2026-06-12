@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Qianhai Power",
+        "description": "Configure bill lookup with packet capture values from the Qianhai Power WeChat web page. open_id maps to the bindingNo request header or openId cookie; settle_acct_no maps to the decoded settleAcctNo value.",
+        "data": {
+          "base_url": "Service URL",
+          "open_id": "openId / bindingNo",
+          "settle_acct_no": "Settle account number",
+          "user_no": "User number",
+          "pay_type": "payType",
+          "token": "Token",
+          "jsessionid": "JSESSIONID",
+          "months": "Recent months to query"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This settle account number is already configured."
+    }
+  }
+}

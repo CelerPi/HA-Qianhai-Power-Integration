@@ -1,0 +1,168 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "前海供电",
+        "description": "使用微信前海供电抓包信息配置账单查询。open_id 对应请求头 bindingNo/Cookie openId；settle_acct_no 对应 settleAcctNo 明文值。",
+        "data": {
+          "base_url": "服务地址",
+          "open_id": "openId / bindingNo",
+          "settle_acct_no": "结算户号 settleAcctNo",
+          "user_no": "用户号 userNo",
+          "pay_type": "payType",
+          "token": "Token",
+          "jsessionid": "JSESSIONID",
+          "months": "查询最近月份数"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "该结算户号已经配置。"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "latest_bill": {
+        "name": "账单"
+      },
+      "bill_month": {
+        "name": "账单月份"
+      },
+      "latest_bill_amount": {
+        "name": "账单金额"
+      },
+      "latest_bill_usage": {
+        "name": "账单电量"
+      },
+      "bill_owe": {
+        "name": "欠费"
+      },
+      "bill_lock_owe": {
+        "name": "锁定欠费"
+      },
+      "bill_total_fee": {
+        "name": "合计电费"
+      },
+      "bill_owe_flag": {
+        "name": "欠费标记"
+      },
+      "bill_user_no": {
+        "name": "用户号"
+      },
+      "bill_elec_cust_no": {
+        "name": "客户号"
+      },
+      "bill_user_name": {
+        "name": "用户名"
+      },
+      "bill_address": {
+        "name": "用电地址"
+      },
+      "bill_user_category": {
+        "name": "用电类别"
+      },
+      "bill_type": {
+        "name": "账单类型"
+      },
+      "bill_price": {
+        "name": "电价名称"
+      },
+      "bill_electricity_sort": {
+        "name": "用电性质"
+      },
+      "bill_last_read_date": {
+        "name": "上次抄表日期"
+      },
+      "bill_current_read_date": {
+        "name": "本次抄表日期"
+      },
+      "bill_metering_point_no": {
+        "name": "计量点编号"
+      },
+      "bill_work_order_no": {
+        "name": "工单号"
+      },
+      "bill_receivable_account_sn": {
+        "name": "应收账务流水"
+      },
+      "bill_electricity_fee": {
+        "name": "电度电费"
+      },
+      "bill_base_fee": {
+        "name": "基本电费"
+      },
+      "bill_additional_fee": {
+        "name": "附加费"
+      },
+      "bill_power_adjust_fee": {
+        "name": "力调电费"
+      },
+      "bill_refund_fee": {
+        "name": "退补电费"
+      },
+      "bill_reduction_fee": {
+        "name": "阶段性减免电费"
+      },
+      "bill_previous_meter_reading": {
+        "name": "上期表码"
+      },
+      "bill_current_meter_reading": {
+        "name": "本期表码"
+      },
+      "bill_meter_multiplier": {
+        "name": "倍率"
+      },
+      "bill_meter_asset_no": {
+        "name": "表计资产编号"
+      },
+      "bill_meter_read_type": {
+        "name": "示数类型"
+      },
+      "bill_step1_power": {
+        "name": "阶梯一电量"
+      },
+      "bill_step1_name": {
+        "name": "阶梯一名称"
+      },
+      "bill_step1_percent": {
+        "name": "阶梯一占比"
+      },
+      "bill_step1_fee": {
+        "name": "阶梯一电费"
+      },
+      "bill_step1_price": {
+        "name": "阶梯一电价"
+      },
+      "bill_step2_power": {
+        "name": "阶梯二电量"
+      },
+      "bill_step2_name": {
+        "name": "阶梯二名称"
+      },
+      "bill_step2_percent": {
+        "name": "阶梯二占比"
+      },
+      "bill_step2_fee": {
+        "name": "阶梯二电费"
+      },
+      "bill_step2_price": {
+        "name": "阶梯二电价"
+      },
+      "bill_step3_power": {
+        "name": "阶梯三电量"
+      },
+      "bill_step3_name": {
+        "name": "阶梯三名称"
+      },
+      "bill_step3_percent": {
+        "name": "阶梯三占比"
+      },
+      "bill_step3_fee": {
+        "name": "阶梯三电费"
+      },
+      "bill_step3_price": {
+        "name": "阶梯三电价"
+      }
+    }
+  }
+}
