@@ -390,7 +390,7 @@ class QianhaiPowerSensor(CoordinatorEntity[DataUpdateCoordinator[QianhaiPowerDat
         self._attr_device_info = {
             "identifiers": {(DOMAIN, entry.entry_id)},
             "name": entry.title,
-            "manufacturer": "Qianhai Power",
+            "manufacturer": "前海供电",
         }
         if description.step is not None:
             self._attr_entity_registry_enabled_default = _step_is_available(

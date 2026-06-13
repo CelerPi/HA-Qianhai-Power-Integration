@@ -1,6 +1,6 @@
 # 前海供电接入 Home Assistant
 
-![version](https://img.shields.io/badge/version-v0.4.3-blue)
+![version](https://img.shields.io/badge/version-v0.4.4-blue)
 
 这是基于微信前海供电网页接口实现的 Home Assistant 自定义集成。
 

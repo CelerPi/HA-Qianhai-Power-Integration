@@ -1,6 +1,6 @@
 {
   "domain": "qianhai_power",
-  "name": "Qianhai Power",
+  "name": "前海供电",
   "codeowners": [],
   "config_flow": true,
   "documentation": "https://github.com/CelerPi/HA-Qianhai-Power-Integration",
@@ -10,5 +10,5 @@
   "requirements": [
     "gmssl==3.2.2"
   ],
-  "version": "0.4.3"
+  "version": "0.4.4"
 }

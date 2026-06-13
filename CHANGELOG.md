@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.4
+
+- Show the integration name and device manufacturer in Chinese.
+
 ## 0.4.3
 
 - Rename GitHub repository references to `HA-Qianhai-Power-Integration`.
