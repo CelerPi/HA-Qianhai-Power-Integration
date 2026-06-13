@@ -4,6 +4,8 @@
 
 这是基于微信前海供电网页接口实现的 Home Assistant 自定义集成。
 
+> **第一次配置前请先看：** [如何抓包获取前海供电配置字段](docs/packet-capture.md)。教程里写了手机代理、HTTPS 证书、筛选请求、字段位置和 Base64 解码步骤。
+
 当前已还原的调用链：
 
 - 统一入口：`POST https://qhp.qianhaipower.com/wechatWeb/wx/serviceInvoke`
@@ -32,6 +34,8 @@
 ## 配置字段
 
 从自己的前海供电微信网页请求里填这些字段：
+
+详细抓包步骤见：[如何抓包获取前海供电配置字段](docs/packet-capture.md)。
 
 - `open_id`：请求头 `bindingNo`，也是 Cookie 里的 `openId`。
 - `settle_acct_no`：请求体 `settleAcctNo` 的明文值。抓包里是 Base64，需要先解码。
